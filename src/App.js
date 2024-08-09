@@ -2,6 +2,7 @@
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 import Home from './Home';
 import About from './About';
+import image from './image';
 
 const config = createBrowserRouter([
   {path:"/home",element:<Home/>},
@@ -22,6 +23,7 @@ function App() {
 
       <Home/>
       <About/>
+      <image/>
 
       <button onClick={getUser}>Click to get user list </button>
 
